@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&family=Source+Sans+Pro:wght@200;600&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:rgb(244,244,244);
+}
+.container{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 80%;
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}.navbar{
+    margin:10px;
+    width: 100%;
+    height: 80px;
+    
+    
+
+}.avatar{
+    position: absolute;
+    margin-top: 20px;
+    height:auto;
+    width:200px;
+}.avatar img{
+    float: left;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    
+    
+}ul{
+    list-style-type: none;
+    margin-top: 40px;
+    padding: 0;
+    overflow: hidden;
+
+}li{
+    float:right;
+    
+}
+li a {
+    font-size: 2em;
+    color:black;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}li a:hover{
+
+    text-decoration: underline;
+}.avatar .name {
+    position: relative;
+    left:10px ;
+    top: 20px;
+    font-weight: 900;
+    font-size:1.2em;
+   
+}.avatar p{
+    position: relative;
+    left:9px ;
+    top: 25px;
+    font-weight: 400;
+}.welcome{
+    width: 100%;
+    height: 600px;
+}.avatar-big img{
+    float: right;
+    width:500px;
+    height:500px;
+    border-radius:50%;
+}.welcome-text{
+    position: relative;
+    top: 130px;
+    float: left;
+
+}.welcome-text h1{
+
+    font-size:4em;
+
+
+}.welcome-text  h4{
+    font-size:3em ;
+    font-weight:200;
+}.welcome-text h5{
+    font-size:2em;
+    font-weight:200;
+}.social{
+    
+    font-size:3em;
+    
+    margin-right: 10px;
+    margin-bottom:10px ;
+
+}.hireme{
+    padding:15px 25px ;
+    border: none;
+    background-color:rgba(43,43,45);
+    color: white;
+    border-radius:20px;
+    cursor: pointer;
+}.navbtn{
+    background-color:none;
+    border:1px solid grey;
+    padding:15px 25px ;
+    color:rgba(43,43,45);;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+
+}.seemyresume{
+    margin-left:10px;
+    padding:15px 25px ;
+    border: 1px solid grey;
+    background-color:none;
+    color:black;
+    border-radius:20px;
+    cursor: pointer;
+}
+
