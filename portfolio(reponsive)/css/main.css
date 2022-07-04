@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+/* Navbar */
+#navbar{
+    color: #DFF6FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar  ul {
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+}#navbar ul li a {
+    color: #DFF6FF;
+    font-weight: 400;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}#navbar ul li a:hover {
+    background-color:#47B5FF;
+    border-radius: 5px;
+}
+
+/* Home */
+
+#home{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius:100%;
+}
+#home .name h2 {
+    margin-bottom:0.75rem;
+
+}#home .name p {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #06283D;
+}
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#skills .items {
+    width:144px;
+    height:200px;
+}
+
+#blog-section{
+    color: #333;
+    padding:1rem;
+}.blogs{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}.blogs .blog{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom:0.5rem;
+}
+
+
+.blogs .blog .blog-image{
+    width:50vw;
+    
+    margin-right: 0.5rem;
+}.blogs .blog .blog-image img {
+    width: 400px;
+    border-radius: 5px;
+    
+}
+
+.blogs .blog .blog-info .title{
+
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.blogs .blog .blog-info .description{
+    letter-spacing:1.2px;
+    margin-bottom: 0.50rem;
+
+}
+
+.blogs .blog .blog-info a{
+    background-color: #06283D;
+    padding: 0.25rem;
+    color: #DFF6FF;
+    border: 4px;
+    
+}
+
+#contact {
+    color: #DFF6FF;
+    padding: 1rem;
+}
+#contact .contact-form {
+    max-width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a {
+
+    padding: 1rem;
+    font-size:2rem;
+
+}
